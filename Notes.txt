@@ -1,0 +1,50 @@
+Client side: React app
+Server side/api: Nodejs app
+
+To create project:
+    yarn create react-app .
+
+To start app:
+    yarn start
+
+To add routes:
+    yarn add react-router-dom
+
+To use routes:
+    Create a file.
+    In that file create a function, and inside return write the code.
+    In App.js call is by first importing it, then write <"Filename /"> inside return block.
+
+To add express:
+    Go to that directory
+        yarn add express
+
+ev = event
+
+*********api folder*********
+Nodemon:
+    if we do not use nodemon, and instead just node, then if we make any changes, and refresh the browser, then the changes will not be reflected and we need to restart the whole app again.
+    when we use nodemon, we can make any changes, save it and refresh the browser to reflect the changes. 
+    nodemon index.js
+
+MongoDB:
+    To add mongoose:
+        yarn add mongoose
+    Inside api folder for every collection inside our database, we create models
+    Username: dhruvanggondalia
+    Password: J0hIO4e9WwfWkgPe
+
+To encrypt the password, we are using Bcrypt
+
+
+in api folder we will use jsonwebtoken for index.js
+    yarn add jsonwebtoken
+
+To add rich text when creating blogs:
+yarn add react-quill
+
+in api:
+yarn add multer
+
+for date:
+yarn add date-fns
