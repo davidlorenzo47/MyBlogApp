@@ -1,3 +1,7 @@
+# The project looks as follows:  
+![](https://github.com/davidlorenzo47/MyBlogApp/blob/master/Demo.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
